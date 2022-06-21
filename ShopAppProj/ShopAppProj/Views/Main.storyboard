@@ -34,15 +34,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="LogIn"/>
+                                <connections>
+                                    <action selector="loginTapped" destination="Hai-tc-DT6" eventType="touchUpInside" id="a7G-Ve-2la"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvP-j5-wAh">
                                 <rect key="frame" x="227" y="534" width="78" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Register"/>
+                                <connections>
+                                    <action selector="registerTapped" destination="Hai-tc-DT6" eventType="touchUpInside" id="7vD-UC-YR0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVT-Du-Btp">
-                                <rect key="frame" x="71" y="457" width="273" height="49"/>
+                                <rect key="frame" x="20" y="457" width="374" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
@@ -54,12 +60,15 @@
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                     </view>
                     <connections>
+                        <outlet property="emailTF" destination="t9N-TU-9xV" id="Yr9-n7-sW0"/>
+                        <outlet property="passwordTF" destination="nlc-Ld-BhU" id="hOj-yt-92c"/>
+                        <outlet property="warnLabel" destination="IVT-Du-Btp" id="kWL-D7-3GI"/>
                         <segue destination="OgL-Zf-j2s" kind="presentation" identifier="toTasksSegue" modalPresentationStyle="fullScreen" id="JRr-dw-xNx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UAr-x6-9GU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-849" y="117"/>
+            <point key="canvasLocation" x="-849.27536231884062" y="116.51785714285714"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="TOq-tH-wAD">

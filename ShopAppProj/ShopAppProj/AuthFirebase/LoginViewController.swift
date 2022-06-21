@@ -10,7 +10,8 @@ import Firebase
 
 class LoginViewController: UIViewController {
     
-    var ref: DatabaseReference!
+    
+//    var ref: DatabaseReference!
 
     @IBOutlet weak var warnLabel: UILabel!
     @IBOutlet weak var emailTF: UITextField!
@@ -20,7 +21,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         
-        ref = Database.database().reference(withPath: "users")
+//        ref = Database.database().reference(withPath: "users")
         
         // IF WE HAVE REAL TOKEN
         Auth.auth().addStateDidChangeListener { [weak self] _, user in
@@ -62,8 +63,8 @@ class LoginViewController: UIViewController {
             if let error = error {
                 self?.dispalyWarningLabel(withText: "Registration error: \(error.localizedDescription)")
             } else if let user = user {
-                let userRef = self?.ref.child(user.user.uid)
-                userRef?.setValue(["email": user.user.email])
+//                let userRef = self?.ref.child(user.user.uid)
+//                userRef?.setValue(["email": user.user.email])
             }
         }
     }
