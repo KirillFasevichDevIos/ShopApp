@@ -12,7 +12,6 @@ class StoreFrontDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        //Currency formatter fail to format numbers due to API format
         let productPrice = store?.price
         let currencyFormatter = NumberFormatter()
         currencyFormatter.usesGroupingSeparator = true
