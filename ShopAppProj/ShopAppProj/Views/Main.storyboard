@@ -182,7 +182,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem systemItem="favorites" id="Qnh-NI-jJ0"/>
-                                    <tabBarItem systemItem="more" id="vPM-PG-pAR"/>
+                                    <tabBarItem image="Frame 60" id="vPM-PG-pAR"/>
                                 </items>
                             </tabBar>
                         </subviews>
@@ -215,7 +215,7 @@
             </objects>
             <point key="canvasLocation" x="1684.057971014493" y="116.51785714285714"/>
         </scene>
-        <!--Product-->
+        <!--Title-->
         <scene sceneID="vic-1F-MyC">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="rpr-Bb-ssZ" customClass="StoreFrontDetailViewController" customModule="ShopAppProj" customModuleProvider="target" sceneMemberID="viewController">
@@ -272,7 +272,9 @@
                             <constraint firstAttribute="bottom" secondItem="X49-Lg-cl4" secondAttribute="bottom" constant="34" id="pcT-3j-0Px"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Product" id="M6g-5F-TVK"/>
+                    <navigationItem key="navigationItem" title="Title" id="UpP-pK-Htk">
+                        <barButtonItem key="rightBarButtonItem" image="Frame 60" id="MMb-Gd-oGx"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="detailProductDescriptionLabel" destination="X49-Lg-cl4" id="PI6-Pg-2WM"/>
                         <outlet property="detailProductImage" destination="Gf2-tI-jHj" id="ODp-rl-EgR"/>
@@ -305,6 +307,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Frame 60" width="32" height="32"/>
         <image name="main2" width="3779" height="5668"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
