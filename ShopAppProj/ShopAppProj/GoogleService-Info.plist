@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>768782882716-ggqirjuel5u30jvhphaf42khvf434h4j.apps.googleusercontent.com</string>
+	<string>810989311935-gqbm9t7smbf1jn0pr96bcrh63ajpegmu.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.768782882716-ggqirjuel5u30jvhphaf42khvf434h4j</string>
+	<string>com.googleusercontent.apps.810989311935-gqbm9t7smbf1jn0pr96bcrh63ajpegmu</string>
 	<key>API_KEY</key>
-	<string>AIzaSyC8PHUD7j1ztZONmt_2BLCBas3My1EGLhc</string>
+	<string>AIzaSyB8TPlmpnawBOfLxTlhJ4SqJfDAZiOwBjg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>768782882716</string>
+	<string>810989311935</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>by.kirillFasevich.ShopAppProj</string>
 	<key>PROJECT_ID</key>
-	<string>spopprojappfir</string>
+	<string>shopingappproject</string>
 	<key>STORAGE_BUCKET</key>
-	<string>spopprojappfir.appspot.com</string>
+	<string>shopingappproject.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:768782882716:ios:c9ce8ca6d66533442dda59</string>
+	<string>1:810989311935:ios:3a4faebb312a557739b30a</string>
 </dict>
 </plist>

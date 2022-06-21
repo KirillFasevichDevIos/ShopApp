@@ -1,5 +1,6 @@
 
 import UIKit
+import Firebase
 
 class StoreFrontViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
    
@@ -12,10 +13,21 @@ class StoreFrontViewController: UIViewController, UICollectionViewDelegate, UICo
         
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        guard let currentUser = Auth.auth().currentUser else { return }
       
         collectionView.delegate = self
         collectionView.dataSource = self
         downLoadStoreData()
+    }
+    
+    @IBAction func signOutTapped(_ sender: UIBarButtonItem) {
+        do {
+            try Auth.auth().signOut()
+        } catch {
+            print(error.localizedDescription)
+        }
+        dismiss(animated: true, completion: nil)
     }
     
     func updateSearchResults(for searchController: UISearchController) {

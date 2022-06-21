@@ -13,14 +13,14 @@ class TasksViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var user: User!
-//    var ref: DatabaseReference!
+    var ref: DatabaseReference!
     var tasks = [Task]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         guard let currentUser = Auth.auth().currentUser else { return }
         user = User(user: currentUser)
-//        ref = Database.database().reference(withPath: "users").child(user.uid).child("tasks")
+        ref = Database.database().reference(withPath: "users").child(user.uid).child("tasks")
     }
     
     @IBAction func signOutTapped(_ sender: UIBarButtonItem) {
@@ -44,9 +44,9 @@ class TasksViewController: UIViewController {
             // создаем задачу
             let task = Task(title: text, userId: uid)
             // где хранится на сервере
-//            let taskRef = self?.ref.child(task.title.lowercased()) // нижний регистр
-            // добавляем на сервак
-//            taskRef?.setValue(task.convertToDictionary()) // помещаем словарь по ref
+            let taskRef = self?.ref.child(task.title.lowercased()) // нижний регистр
+//             добавляем на сервак
+            taskRef?.setValue(task.convertToDictionary()) // помещаем словарь по ref
         }
         // action 2
         let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
