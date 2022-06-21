@@ -76,7 +76,7 @@ class StoreFrontViewController: UIViewController, UICollectionViewDelegate, UICo
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         performSegue(withIdentifier: "showDetails", sender: self)
     }
-    // Passing data from StoreFrontViewController to StoreFrontDetailViewController
+    // Передача данных из StoreFrontViewController в StoreFrontDetailViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
         switch segue.identifier {
@@ -92,7 +92,7 @@ class StoreFrontViewController: UIViewController, UICollectionViewDelegate, UICo
     }
 }
 
-// Download image from API
+// Скачивание изображений из API
 extension UIImageView {
     func downloadedFrom(url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
         contentMode = mode
@@ -113,7 +113,7 @@ extension UIImageView {
         downloadedFrom(url: url, contentMode: mode)
     }
 }
-// Spacing for collection view cells
+// Extension для collection view cells  
 extension StoreFrontViewController: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 0.0
