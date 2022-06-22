@@ -26,6 +26,8 @@
 		84AE5980285EA186001DC42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE597F285EA186001DC42F /* Main.storyboard */; };
 		84AE5984285EA239001DC42F /* StoreFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE5983285EA239001DC42F /* StoreFront.swift */; };
 		84AE5986285EA262001DC42F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE5985285EA262001DC42F /* LaunchScreen.storyboard */; };
+		84EEA78028628C2400ED080C /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEA77F28628C2400ED080C /* Basket.swift */; };
+		84EEA782286290D100ED080C /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEA781286290D100ED080C /* BasketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		84AE597F285EA186001DC42F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		84AE5983285EA239001DC42F /* StoreFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFront.swift; sourceTree = "<group>"; };
 		84AE5985285EA262001DC42F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EEA77F28628C2400ED080C /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		84EEA781286290D100ED080C /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 				84AE5974285E9FB3001DC42F /* HomeViewController.swift */,
 				84AE5976285E9FEA001DC42F /* StoreFrontViewController.swift */,
 				84AE5978285EA03B001DC42F /* StoreFrontDetailViewController.swift */,
+				84EEA781286290D100ED080C /* BasketViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				84AE5983285EA239001DC42F /* StoreFront.swift */,
+				84EEA77F28628C2400ED080C /* Basket.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 			files = (
 				84AE597E285EA12D001DC42F /* StoreFrontCollectionViewCell.swift in Sources */,
 				84AE5979285EA03C001DC42F /* StoreFrontDetailViewController.swift in Sources */,
+				84EEA782286290D100ED080C /* BasketViewController.swift in Sources */,
 				84AE5977285E9FEA001DC42F /* StoreFrontViewController.swift in Sources */,
 				84AE595F285E9BA2001DC42F /* AppDelegate.swift in Sources */,
 				848A3336286143560061E9C1 /* User.swift in Sources */,
@@ -232,6 +239,7 @@
 				84AE5961285E9BA2001DC42F /* SceneDelegate.swift in Sources */,
 				848A333A2861437F0061E9C1 /* TasksViewController.swift in Sources */,
 				848A3338286143660061E9C1 /* Task.swift in Sources */,
+				84EEA78028628C2400ED080C /* Basket.swift in Sources */,
 				84AE5975285E9FB3001DC42F /* HomeViewController.swift in Sources */,
 				848A333C286143960061E9C1 /* LoginViewController.swift in Sources */,
 			);
