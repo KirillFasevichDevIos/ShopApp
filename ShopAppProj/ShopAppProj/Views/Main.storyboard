@@ -257,7 +257,7 @@
                             </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8di-hm-hln"/>
-                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
                             <constraint firstItem="hCj-Vh-Nvj" firstAttribute="leading" secondItem="8di-hm-hln" secondAttribute="leading" id="3E3-GU-isi"/>
                             <constraint firstItem="VpR-lX-t9D" firstAttribute="leading" secondItem="8di-hm-hln" secondAttribute="leading" id="3xW-L1-CvZ"/>
@@ -325,7 +325,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wyf-y8-IWi"/>
-                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
                             <constraint firstItem="X49-Lg-cl4" firstAttribute="top" secondItem="HuO-M6-6y3" secondAttribute="bottom" constant="8" symbolic="YES" id="0db-nt-ZSL"/>
                             <constraint firstItem="X49-Lg-cl4" firstAttribute="leading" secondItem="HuO-M6-6y3" secondAttribute="leading" constant="20" id="0rz-UN-IiX"/>
@@ -419,6 +419,9 @@
         <image name="main2" width="3779" height="5668"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
